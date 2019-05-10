@@ -11,12 +11,12 @@ Maven 3.6.1
 
 	mvn clean package
 
-#Execute
+# Execute
  To run the app, execute the below command
 
 	java -jar ./target/discount-calculator-1.0.0.jar
 
-#Test and generate coverage report
+# Test and generate coverage report
 
  Execute the below command to test and generate coverage report
 
@@ -25,11 +25,11 @@ Maven 3.6.1
 Test report can be found in "/target/site/jacoco-ut"
 
 
-#Endpoint 
+# Endpoint 
  
  The discount calculator URI is "http://localhost:8080/applydiscount"
 
-#Sample Request
+# Sample Request
 
 {
     "items": [
@@ -49,7 +49,7 @@ Test report can be found in "/target/site/jacoco-ut"
     "finalAmount": 0
 }
 
-#Sample Response
+# Sample Response
 
 {
     "items": [
